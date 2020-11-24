@@ -1,14 +1,14 @@
-import React from 'react';
-import jumboData from './fixtures/jumbo';
-import Jumbotron from './components/jumbotron';
-import { JumbotronContainer } from './containers/jumbotron';
-import { FooterContainer } from './containers/footer';
+import React from "react";
+import { JumbotronContainer } from "./containers/jumbotron";
+import { FooterContainer } from "./containers/footer";
+import { FaqsContainer } from "./containers/faqs";
 
 export default function App() {
-  return (
-    <>
-      <JumbotronContainer />
-      <FooterContainer />
-    </>
-  );
+	return (
+		<>
+			<JumbotronContainer />
+			<FaqsContainer />
+			<FooterContainer />
+		</>
+	);
 }
